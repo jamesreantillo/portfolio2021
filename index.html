@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Document</title>
   </head>
@@ -14,8 +15,8 @@
         <a href="index.html" class="logo">James Reantillo</a>
         <nav>
           <ul>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">My Skills</a></li>
+            <li><a href="#mySkills">My Skills</a></li>
+            <li><a href="#myWork">My Work</a></li>
             <li><a href="#">Hire me</a></li>
           </ul>
         </nav>
@@ -23,18 +24,17 @@
       <div class="social-header">
         <ul>
           <li>
-            <a href="#"
-              ><img src="https://via.placeholder.com/20" alt="dribble"
+            <a href="https://github.com/jamesreantillo" target="_blank"
+              ><img src="./images/iconfinder_Group_4747499.png" alt="dribble"
             /></a>
           </li>
           <li>
-            <a href="#"
-              ><img src="https://via.placeholder.com/20" alt="behance"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="https://via.placeholder.com/20" alt="twitter"
+            <a
+              href="https://www.linkedin.com/in/james-reantillo"
+              target="_blank"
+              ><img
+                src="./images/iconfinder_Social-media_LinkedIn_4362961.png"
+                alt="behance"
             /></a>
           </li>
         </ul>
@@ -43,6 +43,19 @@
 
     <div class="hero">
       <div class="content">
+        <div role="navigation" id="burger-menu">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li>About</li></a>
+              <a href="#"><li>Info</li></a>
+            </ul>
+          </div>
+        </div>
         <h1 class="stagger1">Beautifully Crafted Web Experiences</h1>
         <div class="meet stagger1">
           <span class="pointer">👇</span>
@@ -103,7 +116,7 @@
             height="172"
             rx="19"
             transform="matrix(1,0,0,1,1277,289)"
-            fill="#6e00ff"
+            fill="#68BBE3"
             data-svg-origin="0 0"
             style="transform-origin: 0px 0px"
           ></rect>
@@ -114,7 +127,7 @@
             height="172"
             rx="86"
             transform="matrix(1,0,0,1,1277,461)"
-            fill="#ff64cb"
+            fill="#003060"
             data-svg-origin="0 0"
             style="transform-origin: 0px 0px"
           ></rect>
@@ -125,7 +138,7 @@
             height="172"
             rx="19"
             transform="matrix(1,0,0,1,1449,461)"
-            fill="#e5d5fa"
+            fill="#e3f0fa"
             data-svg-origin="0 0"
             style="transform-origin: 0px 0px"
           ></rect>
@@ -136,7 +149,7 @@
             height="172"
             rx="19"
             transform="matrix(1,0,0,1,1277,633)"
-            fill="#6e00ff"
+            fill="#68BBE3"
             data-svg-origin="0 0"
             style="transform-origin: 0px 0px"
           ></rect>
@@ -205,35 +218,35 @@
         alt="Featured Project"
       />
     </section>
-    <section class="skills">
+    <section id="mySkills" class="skills">
       <div class="skills-container">
         <ul>
           <li class="transition2">
-            <div class="icon-container one">
+            <div class="icon-container one" data-aos="fade-in">
               <img src="https://via.placeholder.com/50x59" alt="UI/UX icon" />
             </div>
-            <p class="skill-title">UI UX Design</p>
-            <p class="featured-desc skill-desc">
+            <p class="skill-title" data-aos="fade-in">UI UX Design</p>
+            <p class="featured-desc skill-desc" data-aos="fade-in">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
               aliquam dolorum, molestias aut repellat harum.
             </p>
           </li>
           <li class="transition2">
-            <div class="icon-container two">
+            <div class="icon-container two" data-aos="fade-in">
               <img src="https://via.placeholder.com/50x59" alt="UI/UX icon" />
             </div>
-            <p class="skill-title">Frontend Development</p>
-            <p class="featured-desc skill-desc">
+            <p class="skill-title" data-aos="fade-in">Frontend Development</p>
+            <p class="featured-desc skill-desc" data-aos="fade-in">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
               aliquam dolorum, molestias aut repellat harum.
             </p>
           </li>
           <li class="transition2">
-            <div class="icon-container three">
+            <div class="icon-container three" data-aos="fade-in">
               <img src="https://via.placeholder.com/50x59" alt="UI/UX icon" />
             </div>
-            <p class="skill-title">Identity Design</p>
-            <p class="featured-desc skill-desc">
+            <p class="skill-title" data-aos="fade-in">Identity Design</p>
+            <p class="featured-desc skill-desc" data-aos="fade-in">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
               aliquam dolorum, molestias aut repellat harum.
             </p>
@@ -241,9 +254,9 @@
         </ul>
       </div>
     </section>
-    <section class="portfolio">
+    <section id="myWork" class="portfolio">
       <div class="portfolio-container transition3">
-        <div class="portfolio-left">
+        <div class="portfolio-left" data-aos="fade-in">
           <div class="inner">
             <p class="subtitle">Guitar App</p>
             <p class="featured-title">Fretastic.com</p>
@@ -253,12 +266,12 @@
             </p>
           </div>
         </div>
-        <a href="#"
+        <a href="#" data-aos="fade-in"
           ><img src="https://via.placeholder.com/500x323" alt="fretastic"
         /></a>
       </div>
       <div class="portfolio-container transition3">
-        <div class="portfolio-left">
+        <div class="portfolio-left" data-aos="fade-in">
           <div class="inner">
             <p class="subtitle">Guitar App</p>
             <p class="featured-title">Fretastic.com</p>
@@ -268,12 +281,12 @@
             </p>
           </div>
         </div>
-        <a href="#"
+        <a href="#" data-aos="fade-in"
           ><img src="https://via.placeholder.com/500x323" alt="fretastic"
         /></a>
       </div>
       <div class="portfolio-container transition3">
-        <div class="portfolio-left">
+        <div class="portfolio-left" data-aos="fade-in">
           <div class="inner">
             <p class="subtitle">Guitar App</p>
             <p class="featured-title">Fretastic.com</p>
@@ -283,11 +296,15 @@
             </p>
           </div>
         </div>
-        <a href="#"
+        <a href="#" data-aos="fade-in"
           ><img src="https://via.placeholder.com/500x323" alt="fretastic"
         /></a>
       </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
       integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
@@ -298,6 +315,7 @@
       integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg=="
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="anim.js"></script>
   </body>
 </html>

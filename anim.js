@@ -41,7 +41,22 @@ tl.from(
   },
   '-=2'
 );
-
+tl.to('.pointer', {
+  opacity: 1,
+  x: 75,
+  ease: Power4.easeOut,
+  duration: 1,
+});
+tl.to(
+  '.scroll',
+  {
+    opacity: 1,
+    x: -80,
+    ease: Power4.easeOut,
+    duration: 1,
+  },
+  '-=1'
+);
 gsap.from('.transition2', {
   scrollTrigger: {
     trigger: '.transition2',
