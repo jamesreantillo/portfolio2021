@@ -9,6 +9,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-right: 2rem;
 }
 
 a {
@@ -35,22 +36,6 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 2em;
-}
-
-header .logo {
-  color: #00f7ff;
-  font-weight: bold;
-}
-
-header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-header ul a {
-  display: block;
-  padding: 0 1em;
 }
 
 .social-header,
@@ -203,7 +188,7 @@ section {
     place-content: center;
   }
   .right {
-    margin-left: 2em;
+    margin-left: 1em;
     margin-top: 1em;
   }
   .skills {
@@ -223,6 +208,9 @@ section {
   }
   .portfolio-container img {
     margin-left: 1em;
+  }
+  #menuToggle {
+    bottom: 0.6em;
   }
 }
 
@@ -298,6 +286,12 @@ section {
     float: right;
     max-width: 500px;
   }
+  #menuToggle {
+    top: -0.4em;
+  }
+  #menu {
+    margin: -64px !important;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -312,6 +306,9 @@ section {
   }
   .hero .content {
     padding: 6em 8em 6em 10em;
+  }
+  #menuToggle {
+    top: 0.3em;
   }
 }
 
@@ -360,13 +357,14 @@ section {
 
 #burger-menu {
   margin-bottom: -2em;
+  position: fixed;
+  z-index: 1000;
 }
 
 #menuToggle {
   display: block;
   position: relative;
-  top: -60px;
-  left: -100px;
+  bottom: 0.7em;
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -463,13 +461,19 @@ section {
  * at the top left of the screen
  */
 #menu {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: absolute;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 140px;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
+  background: radial-gradient(lightblue, transparent);
+  height: 100em;
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   -webkit-transform: translate(-100%, 0);
