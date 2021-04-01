@@ -223,6 +223,9 @@ section {
 }
 
 @media only screen and (min-width: 1050px) {
+  .social-header-list {
+    padding-right: 2em;
+  }
   .hero {
     height: 90vh;
   }
@@ -253,7 +256,7 @@ section {
 
     ul {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
       width: 11em;
       float: right;
 

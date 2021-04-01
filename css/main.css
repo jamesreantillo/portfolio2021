@@ -215,6 +215,9 @@ section {
 }
 
 @media only screen and (min-width: 1050px) {
+  .social-header-list {
+    padding-right: 2em;
+  }
   .hero {
     height: 90vh;
   }
@@ -247,9 +250,6 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     width: 11em;
     float: right;
   }
