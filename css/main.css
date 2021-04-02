@@ -41,7 +41,7 @@ header {
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 3em;
+  padding: 2em;
   margin-top: -1em;
 }
 
@@ -102,7 +102,7 @@ section {
 .featured-title {
   color: black;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin-top: -0.4em;
   display: block;
 }
@@ -139,15 +139,15 @@ section {
 }
 
 .skills-container ul li .icon-container.one {
-  width: 50px;
+  width: 33%;
 }
 
 .skills-container ul li .icon-container.two {
-  width: 100px;
+  width: 33%;
 }
 
 .skills-container ul li .icon-container.three {
-  width: 60px;
+  width: 33%;
 }
 
 .skill-title {
@@ -197,8 +197,8 @@ section {
   .skills-container ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[3];
-        grid-template-columns: repeat(3, auto);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
   }
   .portfolio {
