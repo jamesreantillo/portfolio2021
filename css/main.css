@@ -199,7 +199,7 @@ section {
     display: grid;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
+    grid-gap: 2em;
   }
   .portfolio {
     padding-top: 7em;
