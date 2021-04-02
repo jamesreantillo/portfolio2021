@@ -5,445 +5,380 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-
-    <!-- <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
-      rel="stylesheet"
-    /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
-
-    <title>Document</title>
+    <title>Portfolio 2021</title>
   </head>
   <body>
-    <!-- <div class="nav-container" id="home"> -->
-    <header>
-      <nav
-        class="navbar fixed-top navbar-expand-lg navbar-dark"
-        style="background-color: #003060"
-      >
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#mySkills"
-                  >Skills</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#myWork"
-                  >Projects</a
-                >
-              </li>
+    <div class="nav-container">
+      <header id="home">
+        <nav
+          class="navbar fixed-top navbar-expand-lg navbar-dark"
+          style="background-color: #003060"
+        >
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#mySkills"
+                    >Skills</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#myWork"
+                    >Projects</a
+                  >
+                </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Hire me
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="https://github.com/jamesreantillo"
-                      target="_blank"
-                      >Github</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="https://www.linkedin.com/in/james-reantillo"
-                      target="_blank"
-                      >Linkedin</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="mailto:james.reantillo@gmail.com"
-                      target="_blank"
-                      >Email me</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="./images/Resume.pdf"
-                      download="jamesreantillo_resume.pdf"
-                      >Resume</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Hire me
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://github.com/jamesreantillo"
+                        target="_blank"
+                        >Github</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.linkedin.com/in/james-reantillo"
+                        target="_blank"
+                        >Linkedin</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="mailto:james.reantillo@gmail.com"
+                        target="_blank"
+                        >Email me</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./images/Resume.pdf"
+                        download="jamesreantillo_resume.pdf"
+                        >Resume</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-      <!-- <div role="navigation" id="burger-menu">
-          <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-              <a href="#home"><li>Home</li></a>
-              <a href="#mySkills"><li>Skills</li></a>
-              <a href="#myWork"><li>Projects</li></a>
-
-              <a href="https://github.com/jamesreantillo" target="_blank"
-                ><li>Github</li></a
-              >
-              <a
-                href="https://www.linkedin.com/in/james-reantillo"
-                target="_blank"
-                id="linkedin"
-                ><li>Linkedin</li></a
-              >
-              <a href="mailto:james.reantillo@gmail.com" target="_blank"
-                ><li>Email</li></a
-              >
-              <a href="./images/Resume.pdf" download="jamesreantillo_resume.pdf"
-                ><li>Resume</li></a
-              >
-            </ul>
-          </div>
-        </div> -->
-
-      <!-- <a href="index.html" class="logo">James Reantillo</a>
-        <nav>
-          <ul>
-            <li><a href="#mySkills">My Skills</a></li>
-            <li><a href="#myWork">My Work</a></li>
-            <li><a href="#">Hire me</a></li>
-          </ul>
-        </nav> -->
-    </header>
-    <!-- <div class="social-header">
-      <ul>
-        <li class="social-header-list">
-          <a href="https://github.com/jamesreantillo" target="_blank"
-            ><img src="./images/iconfinder_Group_4747499.png" alt="github"
-          /></a>
-        </li>
-        <li class="social-header-list">
-          <a href="https://www.linkedin.com/in/james-reantillo" target="_blank"
-            ><img
-              src="./images/iconfinder_Social-media_LinkedIn_4362961.png"
-              alt="resume"
-          /></a>
-        </li>
-
-        <li class="social-header-list">
-          <a href="mailto:james.reantillo@gmail.com" target="_blank"
-            ><img src="./images/email_7.png" alt="github"
-          /></a>
-        </li>
-        <li></li>
-      </ul>
-    </div> -->
-    <!-- </div> -->
-
-    <div class="hero">
-      <div class="content">
-        <h1 class="stagger1">Front End Developer/ Web Developer</h1>
-        <div class="meet stagger1">
-          <span class="pointer">👇</span>
-          <p>Hi, I'm James Reantillo</p>
-          <svg
-            class="scroll stagger1"
-            width="40"
-            height="77"
-            viewBox="0 0 40 77"
-            style="transform: translate(0px, 0px); opacity: 1"
-          >
-            <g id="scroll" transform="translate(-253 -787)">
-              <g
-                id="Rectangle_12"
-                data-name="Rectangle 12"
-                transform="translate(253 787)"
-                fill="none"
-                stroke="#fff"
-                stroke-width="4"
-              >
-                <rect width="40" height="77" rx="20" stroke="none"></rect>
-                <rect
-                  x="2"
-                  y="2"
-                  width="36"
-                  height="73"
-                  rx="18"
-                  fill="none"
-                ></rect>
-              </g>
-              <circle
-                class="circle"
-                id="Ellipse_1"
-                data-name="Ellipse 1"
-                cx="11"
-                cy="11"
-                r="11"
-                transform="translate(262 798)"
-                fill="#fff"
-              ></circle>
-            </g>
-          </svg>
-        </div>
-      </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="hero-design"
-        width="686"
-        height="688"
-        viewBox="0 0 686 688"
-        style="transform: translate(0px, 0px); opacity: 1"
-      >
-        <g id="blockdesign" transform="translate(-935 -289)">
-          <rect
-            class="square-anim"
-            data-name="Rectangle 2"
-            width="172"
-            height="172"
-            rx="19"
-            transform="matrix(1,0,0,1,1277,289)"
-            fill="#68BBE3"
-            data-svg-origin="0 0"
-            style="transform-origin: 0px 0px"
-          ></rect>
-          <rect
-            class="square-anim"
-            data-name="Rectangle 10"
-            width="172"
-            height="172"
-            rx="86"
-            transform="matrix(1,0,0,1,1277,461)"
-            fill="#003060"
-            data-svg-origin="0 0"
-            style="transform-origin: 0px 0px"
-          ></rect>
-          <rect
-            class="square-anim"
-            data-name="Rectangle 8"
-            width="172"
-            height="172"
-            rx="19"
-            transform="matrix(1,0,0,1,1449,461)"
-            fill="#e3f0fa"
-            data-svg-origin="0 0"
-            style="transform-origin: 0px 0px"
-          ></rect>
-          <rect
-            class="square-anim"
-            data-name="Rectangle 5"
-            width="172"
-            height="172"
-            rx="19"
-            transform="matrix(1,0,0,1,1277,633)"
-            fill="#68BBE3"
-            data-svg-origin="0 0"
-            style="transform-origin: 0px 0px"
-          ></rect>
-          <rect
-            class="square-anim"
-            data-name="Rectangle 3"
-            width="172"
-            height="172"
-            rx="19"
-            transform="matrix(1,0,0,1,1107,461)"
-            fill="#fff"
-            data-svg-origin="0 0"
-            style="transform-origin: 0px 0px"
-          ></rect>
-          <rect
-            class="square-anim"
-            data-name="Rectangle 9"
-            width="172"
-            height="172"
-            rx="86"
-            transform="matrix(1,0,0,1,1107,633)"
-            fill="#00f7ff"
-            data-svg-origin="0 0"
-            style="transform-origin: 0px 0px"
-          ></rect>
-          <rect
-            class="square-anim"
-            data-name="Rectangle 7"
-            width="172"
-            height="172"
-            rx="19"
-            transform="matrix(1,0,0,1,935,633)"
-            fill="#fff"
-            opacity="0.17"
-            data-svg-origin="0 0"
-            style="transform-origin: 0px 0px"
-          ></rect>
-          <rect
-            class="square-anim"
-            data-name="Rectangle 4"
-            width="172"
-            height="172"
-            rx="19"
-            transform="matrix(1,0,0,1,1107,805)"
-            fill="#fff"
-            data-svg-origin="0 0"
-            style="transform-origin: 0px 0px"
-          ></rect>
-        </g>
-      </svg>
+        </nav>
+      </header>
     </div>
-    <section class="featured">
-      <div class="left">
-        <div class="inner transition2">
-          <p class="subtitle">Featured Project</p>
-          <a
-            href="https://thereactshoppingcart.netlify.app/"
-            class="featured-title"
-            >thereactshoppingcart.netlify.app</a
-          >
-          <p class="featured-desc">
-            E-commerce website using commerce.js to handle the backend and
-            stripe for credit card transaction.
-          </p>
-        </div>
-      </div>
-      <a href="https://thereactshoppingcart.netlify.app/" target="_blank"
-        ><img
-          class="right transition2"
-          src="./images/Screen Shot 2021-04-01 at 12.35.26 AM.png"
-          alt="react shopping cart"
-      /></a>
-    </section>
-    <section id="mySkills" class="skills">
-      <div class="skills-container">
-        <ul>
-          <li class="transition2">
-            <div class="icon-container two">
-              <span class="icon-container-font"
-                ><i class="fas fa-code"></i
-              ></span>
-            </div>
-            <p class="skill-title">Frontend Development</p>
-            <p class="featured-desc skill-desc">
-              Responsive websites built for an optimal user experience that
-              achieves your business goals.
-            </p>
-          </li>
-          <li class="transition2">
-            <div class="icon-container one">
-              <span class="icon-container-font"
-                ><i class="fas fa-cogs"></i
-              ></span>
-            </div>
-            <p class="skill-title">Passion</p>
-            <p class="featured-desc skill-desc">
-              I love problem solving. I may not have the answer right away but i
-              will exhaust all my resources to find it
-            </p>
-          </li>
-          <li class="transition2">
-            <div class="icon-container three">
-              <span class="icon-container-font"
-                ><i class="fas fa-address-card"></i
-              ></span>
-            </div>
-            <p class="skill-title">About Me</p>
-            <p class="featured-desc skill-desc">
-              My goal is to be a web developer. I'm curently working as a sales
-              agent in a rental car company in SFO. If you need one I got you.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section id="myWork" class="portfolio">
-      <div class="portfolio-container transition3">
-        <div class="portfolio-left">
-          <div class="inner">
-            <p class="subtitle">Game Search</p>
-            <p class="featured-title">
-              <a href="https://reactgamesearch.netlify.app/" target="_blank"
-                >reactgamesearch.netlify.app</a
-              >
-            </p>
-            <p class="featured-desc">
-              Search upcoming games, popular games and new games with this
-              beautiful responsive website.
-            </p>
-          </div>
-        </div>
-        <a href="https://reactgamesearch.netlify.app/"
-          ><img
-            src="./images/Screen Shot 2021-03-29 at 11.56.44 PM.png"
-            alt="react game search"
-        /></a>
-      </div>
-      <div class="portfolio-container transition3">
-        <div class="portfolio-left">
-          <div class="inner">
-            <p class="subtitle">React Music Player</p>
-            <p class="featured-title">
-              <a href="thereactmusicplayer.netlify.app" target="_blank"
-                >thereactmusicplayer.netlify.app</a
-              >
-            </p>
-            <p class="featured-desc">
-              Listen to chill vibe and just be in the zone. This is the type of
-              music I listen to when I code. Check it out.
-            </p>
-          </div>
-        </div>
-        <a href="thereactmusicplayer.netlify.app"
-          ><img
-            src="./images/Screen Shot 2021-03-30 at 12.13.45 AM.png"
-            alt="react music player"
-        /></a>
-      </div>
-      <div class="portfolio-container transition3">
-        <div class="portfolio-left">
-          <div class="inner">
-            <p class="subtitle">Random Wallpaper</p>
-            <p class="featured-title">
-              <a href="https://rndomwallpaper.netlify.app/" target="_blank"
-                >rndomwallpaper.netlify.app</a
-              >
-            </p>
-            <p class="featured-desc">
-              Bored of your wallpaper. This awesome website lets you pick random
-              high quality images from the internet do download.
-            </p>
-          </div>
-        </div>
-        <a href="https://rndomwallpaper.netlify.app/" target="_blank"
-          ><img
-            src="./images/Screen Shot 2021-03-29 at 9.32.25 PM.png"
-            alt="randomWallpaper"
-        /></a>
-      </div>
-    </section>
 
+    <div>
+      <div class="hero">
+        <div class="content">
+          <h1 class="stagger1">Front End Developer / Web Developer</h1>
+          <div class="meet stagger1">
+            <span class="pointer">👇</span>
+            <p>Hi, I'm James Reantillo</p>
+            <svg
+              class="scroll stagger1"
+              width="40"
+              height="77"
+              viewBox="0 0 40 77"
+              style="transform: translate(0px, 0px); opacity: 1"
+            >
+              <g id="scroll" transform="translate(-253 -787)">
+                <g
+                  id="Rectangle_12"
+                  data-name="Rectangle 12"
+                  transform="translate(253 787)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="4"
+                >
+                  <rect width="40" height="77" rx="20" stroke="none"></rect>
+                  <rect
+                    x="2"
+                    y="2"
+                    width="36"
+                    height="73"
+                    rx="18"
+                    fill="none"
+                  ></rect>
+                </g>
+                <circle
+                  class="circle"
+                  id="Ellipse_1"
+                  data-name="Ellipse 1"
+                  cx="11"
+                  cy="11"
+                  r="11"
+                  transform="translate(262 798)"
+                  fill="#fff"
+                ></circle>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="hero-design"
+          width="686"
+          height="688"
+          viewBox="0 0 686 688"
+          style="transform: translate(0px, 0px); opacity: 1"
+        >
+          <g id="blockdesign" transform="translate(-935 -289)">
+            <rect
+              class="square-anim"
+              data-name="Rectangle 2"
+              width="172"
+              height="172"
+              rx="19"
+              transform="matrix(1,0,0,1,1277,289)"
+              fill="#68BBE3"
+              data-svg-origin="0 0"
+              style="transform-origin: 0px 0px"
+            ></rect>
+            <rect
+              class="square-anim"
+              data-name="Rectangle 10"
+              width="172"
+              height="172"
+              rx="86"
+              transform="matrix(1,0,0,1,1277,461)"
+              fill="#003060"
+              data-svg-origin="0 0"
+              style="transform-origin: 0px 0px"
+            ></rect>
+            <rect
+              class="square-anim"
+              data-name="Rectangle 8"
+              width="172"
+              height="172"
+              rx="19"
+              transform="matrix(1,0,0,1,1449,461)"
+              fill="#e3f0fa"
+              data-svg-origin="0 0"
+              style="transform-origin: 0px 0px"
+            ></rect>
+            <rect
+              class="square-anim"
+              data-name="Rectangle 5"
+              width="172"
+              height="172"
+              rx="19"
+              transform="matrix(1,0,0,1,1277,633)"
+              fill="#68BBE3"
+              data-svg-origin="0 0"
+              style="transform-origin: 0px 0px"
+            ></rect>
+            <rect
+              class="square-anim"
+              data-name="Rectangle 3"
+              width="172"
+              height="172"
+              rx="19"
+              transform="matrix(1,0,0,1,1107,461)"
+              fill="#fff"
+              data-svg-origin="0 0"
+              style="transform-origin: 0px 0px"
+            ></rect>
+            <rect
+              class="square-anim"
+              data-name="Rectangle 9"
+              width="172"
+              height="172"
+              rx="86"
+              transform="matrix(1,0,0,1,1107,633)"
+              fill="#00f7ff"
+              data-svg-origin="0 0"
+              style="transform-origin: 0px 0px"
+            ></rect>
+            <rect
+              class="square-anim"
+              data-name="Rectangle 7"
+              width="172"
+              height="172"
+              rx="19"
+              transform="matrix(1,0,0,1,935,633)"
+              fill="#fff"
+              opacity="0.17"
+              data-svg-origin="0 0"
+              style="transform-origin: 0px 0px"
+            ></rect>
+            <rect
+              class="square-anim"
+              data-name="Rectangle 4"
+              width="172"
+              height="172"
+              rx="19"
+              transform="matrix(1,0,0,1,1107,805)"
+              fill="#fff"
+              data-svg-origin="0 0"
+              style="transform-origin: 0px 0px"
+            ></rect>
+          </g>
+        </svg>
+      </div>
+      <section class="featured">
+        <div class="left">
+          <div class="inner transition2">
+            <p class="subtitle">Featured Project</p>
+            <a
+              href="https://thereactshoppingcart.netlify.app/"
+              class="featured-title"
+              >thereactshoppingcart.netlify.app</a
+            >
+            <p class="featured-desc">
+              E-commerce website using commerce.js to handle the backend and
+              stripe for credit card transaction.
+            </p>
+          </div>
+        </div>
+        <a href="https://thereactshoppingcart.netlify.app/" target="_blank"
+          ><img
+            class="right transition2"
+            src="./images/Screen Shot 2021-04-01 at 12.35.26 AM.png"
+            alt="react shopping cart"
+        /></a>
+      </section>
+      <section id="mySkills" class="skills">
+        <div class="skills-container">
+          <ul>
+            <li class="transition2">
+              <div class="icon-container two">
+                <span class="icon-container-font"
+                  ><i class="fas fa-code"></i
+                ></span>
+              </div>
+              <p class="skill-title">Frontend Development</p>
+              <p class="featured-desc skill-desc">
+                Responsive websites built for an optimal user experience that
+                achieves your business goals.
+              </p>
+            </li>
+            <li class="transition2">
+              <div class="icon-container one">
+                <span class="icon-container-font"
+                  ><i class="fas fa-cogs"></i
+                ></span>
+              </div>
+              <p class="skill-title">Passion</p>
+              <p class="featured-desc skill-desc">
+                I love problem solving. I may not have the answer right away but
+                i will exhaust all my resources to find it
+              </p>
+            </li>
+            <li class="transition2">
+              <div class="icon-container three">
+                <span class="icon-container-font"
+                  ><i class="fas fa-address-card"></i
+                ></span>
+              </div>
+              <p class="skill-title">About Me</p>
+              <p class="featured-desc skill-desc">
+                My goal is to be a web developer. I'm curently working as a
+                sales agent in a rental car company in SFO. If you need one I
+                got you.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="myWork" class="portfolio">
+        <div class="portfolio-container transition3">
+          <div class="portfolio-left">
+            <div class="inner">
+              <p class="subtitle">Game Search</p>
+              <p class="featured-title">
+                <a href="https://reactgamesearch.netlify.app/" target="_blank"
+                  >reactgamesearch.netlify.app</a
+                >
+              </p>
+              <p class="featured-desc">
+                Search upcoming games, popular games and new games with this
+                beautiful responsive website.
+              </p>
+            </div>
+          </div>
+          <a href="https://reactgamesearch.netlify.app/"
+            ><img
+              src="./images/Screen Shot 2021-03-29 at 11.56.44 PM.png"
+              alt="react game search"
+          /></a>
+        </div>
+        <div class="portfolio-container transition3">
+          <div class="portfolio-left">
+            <div class="inner">
+              <p class="subtitle">React Music Player</p>
+              <p class="featured-title">
+                <a href="thereactmusicplayer.netlify.app" target="_blank"
+                  >thereactmusicplayer.netlify.app</a
+                >
+              </p>
+              <p class="featured-desc">
+                Listen to chill vibe and just be in the zone. This is the type
+                of music I listen to when I code. Check it out.
+              </p>
+            </div>
+          </div>
+          <a href="thereactmusicplayer.netlify.app"
+            ><img
+              src="./images/Screen Shot 2021-03-30 at 12.13.45 AM.png"
+              alt="react music player"
+          /></a>
+        </div>
+        <div class="portfolio-container transition3">
+          <div class="portfolio-left">
+            <div class="inner">
+              <p class="subtitle">Random Wallpaper</p>
+              <p class="featured-title">
+                <a href="https://rndomwallpaper.netlify.app/" target="_blank"
+                  >rndomwallpaper.netlify.app</a
+                >
+              </p>
+              <p class="featured-desc">
+                Bored of your wallpaper. This awesome website lets you pick
+                random high quality images from the internet do download.
+              </p>
+            </div>
+          </div>
+          <a href="https://rndomwallpaper.netlify.app/" target="_blank"
+            ><img
+              src="./images/Screen Shot 2021-03-29 at 9.32.25 PM.png"
+              alt="randomWallpaper"
+          /></a>
+        </div>
+      </section>
+    </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
       integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
